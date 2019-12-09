@@ -17,6 +17,61 @@ body {
   background-size: cover;
 }
 
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 300px;
+  
+  color: #FFF;
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  max-height: 200px;
+
+
+}
+
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.logo {
+  font-family: 'Cinzel', serif;
+}
+
+.navfont {
+  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.noto {
+  font-family: 'Noto Serif JP', serif;
+}
+.nototc {
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+}
+
+
+.footer {
+  text-align: center;
+  color: black;
+  columns: #000000;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.copyright {
+  text-align: center;
+  columns: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.justtext {
+  text-align: justify;
+}
+
+.button5 {border-radius: 16px;}
+
+.fa-vc{line-height:inherit!important;
+}
+
+.phone {
 }

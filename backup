@@ -1,0 +1,68 @@
+<!---
+
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Project Four</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Project Five</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Project Six</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  
+  
+    <!-- /.row -->
+
+    
+    
+        <!-- Features Section -->
+        <!--
+        <div class="row navfont">
+          <div class="col-lg-6">
+              <p><strong>Facilities:</strong></p>
+              <ul>
+                <li><strong>Main Lodge:</strong> Historic 2 story lodge with dining room, large meeting area and conference room, and overnight lodging for up to 28 people.</li>
+                <br><li><strong>Heart Lodge:</strong> Beautiful 2,400 sq ft multi-purpose room with radiant heated floors & floor to ceiling stone fireplace.</li>
+                <br><li><strong>Guest Cabins:</strong> 5 guest cabins and 8 smaller single room cabins (2 are not available in Winter) with bathrooms and both private & shared rooms. The Cabins can sleep between 50-80 guests.</li>
+                <br><li><strong>Camping:</strong> Generous grounds for camping allow for groups of over 100 people especially in warmer months. </li>
+              </ul>
+  
+          </div>
+          
+          <div class="col-lg-6">
+            <img class="img-fluid rounded" src="pics/main.jpg" alt="Main Lodge">
+          </div>
+          
+        </div> -->
+        <!-- /.row --> 
+
+        
+
+    <!-- Marketing Icons Section -->
+    
+    <!-- /.row -->

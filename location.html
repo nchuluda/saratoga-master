@@ -89,99 +89,87 @@
     </div>
   </nav>
 
-  <!-- Page Content -->
-<div class="container noto">
+ <!-- Page Content -->
+ <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <!-- <h1 class="mt-4 mb-3 noto">Contact Us
+        <!-- <h1 class="mt-4 mb-3 noto">Location
           
-        </h1> 
+        </h1>
     
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
             <a href="index.html">Home</a>
           </li>
-          <li class="breadcrumb-item active">Contact</li>
+          <li class="breadcrumb-item active noto">Location</li>
         </ol> -->
-         
-
-      <!-- Contact Form -->
-    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <hr>
-    <h3>Send us a Message</h3>
-    <hr>
-
-    <div class="row">
-            <div class="col-lg-6 mb-4 noto">
-              <form name="sentMessage" id="contactForm" novalidate>
-                <div class="control-group form-group">
-                  <div class="controls">
-                      
-                    <div class="row noto">
-                        <div class="col-5">
-                            <h5 class=""><i class="fas fa-phone fa-lg"></i>&nbsp;&nbsp;Phone</h5>  
-                        </div>
-                        <div class="col-7">
-                        <h5 class=""><i class="fas fa-envelope fa-lg "></i>&nbsp;&nbsp;Email</h5>
-                        </div>
-                    </div>
-                    <div class="row noto">
-                        <div class="col-5">
-                            <p class="">
-                                <a href="tel:7072759503">(707)275-9503</a>
-                            </p>
-                        </div>
-                        <div class="col-7">
-                            <p class="">
-                                <a href="mailto:stay@saratogasprings.com">stay@saratogasprings.com</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col noto justtext">
-                          <p>&emsp;At Saratoga Springs we strive to support the needs of each group and individual. Please complete the form below with as many specifics as possible and we will respond with details on how we can best serve you or your group. We will also send you rate information and a brochure.</p>
-                        </div>
-                      </div>
-                    
-                  
-
-                    <label>Full Name:</label>
-                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block"></p>
-                  </div>
-                </div>
-                <div class="control-group form-group">
-                  <div class="controls">
-                    <label>Phone Number:</label>
-                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-                  </div>
-                </div>
-                <div class="control-group form-group">
-                  <div class="controls">
-                    <label>Email Address:</label>
-                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-                  </div>
-                </div>
-                <div class="control-group form-group">
-                  <div class="controls">
-                    <label>Message:</label>
-                    <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                  </div>
-                </div>
-                <div id="success"></div>
-                <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-              </form>
-            </div>
-            <div class="col-lg-6 mb-4">
-                <img src="img/waterfall.jpg" style="width: 100%;" class="shadow">
-            </div>
+        <hr>
+    
+        <!-- Content Row -->
+        <div class="row">
+          <!-- Map Column -->
+          <div class="col-lg-8 mb-4">
+            <!-- Embedded Google Map -->
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d395903.52054754796!2d-123.26165972107884!3d39.174805879428355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8083dc06eb717a9d%3A0x5b3e4d913a0bd09!2sSaratoga%20Springs%20Retreat%20Center!5e0!3m2!1sen!2sca!4v1575495037605!5m2!1sen!2sca" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
-          <!-- /.row -->
-      
+          <!-- Contact Details Column -->
+          <div class="col-lg-4 mb-4">
+              
+            
+            <h5 class="nototc">Address</h5>
+            <p class="nototc">
+              Saratoga Springs Retreat Center
+              <br>
+              10243 Saratoga Springs Rd
+              <br>
+              Upper Lake, CA 95485
+              <br>
+            </p>
+            <h5 class="nototc">Phone</h5>
+            <p class="nototc">
+              
+              <a href="tel:7072759503"><i class="fas fa-phone"> </i> (707)275-9503
+              </a>
+            </p>
+            <h5 class="nototc">Email</h5>
+            <p class="nototc">
+              <a href="mailto:stay@saratogasprings.com"><i class="fas fa-envelope"> </i> stay@saratogasprings.com
+              </a>
+            </p>
+            
+          </div>
         </div>
-        <!-- /.container -->
-    <!-- Footer -->
+        <!-- /.row -->
+        <div class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                  <div class="card-header nototc" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >From San Francisco +</a>
+                    </h5>
+                  </div>
+          
+                  <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-body navfont justtext">
+                            Take 101 North 5 miles past Ukiah, then follow Highway 20 East for about 17 miles. 1.1 miles past Scott Valley Road (watch for Saratoga Springs sign), turn left at Saratoga Springs Road and drive three-quarters of a mile to end.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header nototc role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >From Sacramento +
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-body navfont justtext">
+                            Take Interstate 5 North to Williams. Take Route 20 West from Williams about 60 miles to Upper Lake. 4 miles past Upper Lake, and after Witter Springs Road (watch for Saratoga Springs sign) take first right onto Saratoga Springs road and drive three-quarters of a mile to the end.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <!-- Footer -->
   <footer class="py-2">
         <div class="container footer bg-light pt-2 pb-2 mx-auto">
           <p class="m-0 footer">Saratoga Springs Retreat Center</p>
