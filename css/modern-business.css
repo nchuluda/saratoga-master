@@ -3,7 +3,29 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-body {
+ @media (min-width: 576px) {
+   h3 {
+     font-size: 22px;
+   }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+ body {
   padding-top: 56px;
 }
 
@@ -73,5 +95,6 @@ body {
 .fa-vc{line-height:inherit!important;
 }
 
-.phone {
+.border-3 {
+  border-width:3px !important;
 }
